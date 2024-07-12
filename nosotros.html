@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div id="logo">
+            <img src="Imagenes/icono.png" alt="icono">
+        </div>
+        <nav>            
+            <li>
+                <a href="index.html">Inicio</a>
+                <a href="contactenos.html">Contacto</a>
+                <a href="nosotros.html">Nosotros</a>
+            </li>
+        </nav>
+    </header>
+    <main>
+        <div id="tarjeta">
+            <img id="imaTarjeta" src="Imagenes/maiz.jpg" alt="imagen1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quisquam aspernatur velit? Ut, ipsum, dicta libero exercitationem laudantium ea consequatur at ad ex hic repellendus nostrum corporis eveniet iste aliquid maiores quidem provident quis. At incidunt possimus quia numquam in autem fuga hic, asperiores cupiditate corrupti, quisquam dolorem recusandae nobis.</p>
+        </div>
+
+        <h2>object-fit: fill</h2>
+        <div class="contenedor">
+            <img src="Imagenes/impresion3d.jpeg" alt="imagen2" class="imagen-fill">
+        </div>
+        <h2>object-fit: contain</h2>
+        <div class="contenedor">
+            <img src="Imagenes/impresion3d.jpeg" alt="imagen2" class="imagen-contain">
+        </div>
+        <h2>object-fit: cover</h2>
+        <div class="contenedor">
+            <img src="Imagenes/impresion3d.jpeg" alt="imagen2" class="imagen-cover">
+        </div>
+        <h2>object-fit: none</h2>
+        <div class="contenedor">
+            <img src="Imagenes/impresion3d.jpeg" alt="imagen2"
+            class="imagen-none">
+        </div>
+        <h2>object-fit: scale-down</h2>
+        <div class="contenedor">
+            <img src="Imagenes/impresion3d.jpeg" alt="imagen2" class="imagen-scale-down">
+        </div>
+
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="Imagenes/impresora.jpg" alt="imagen3">
+            </div>
+            <div class="flex-item">
+                <img src="Imagenes/impresion3d.jpeg" alt="imagen3">
+            </div>
+            <div class="flex-item">
+                <img src="Imagenes/FPGAs.jpg" alt="imagen4">
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="Imagenes/impresora.jpg" alt="imagen3">
+            </div>
+            <div class="grid-item">
+                <img src="Imagenes/impresion3d.jpeg" alt="imagen3">
+            </div>
+            <div class="grid-item">
+                <img src="Imagenes/FPGAs.jpg" alt="imagen4">
+            </div>
+        </div>
+
+    </main>
+
+
+
+</body>
+</html>
